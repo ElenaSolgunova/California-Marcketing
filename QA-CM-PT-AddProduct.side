@@ -1,0 +1,106 @@
+{
+  "id": "9064ba1c-1853-42a5-9d56-06dd9cfb4217",
+  "version": "2.0",
+  "name": "QA-CaliforniaMarketing",
+  "url": "https://qasvus.wixsite.com/ca-marketing/",
+  "tests": [{
+    "id": "7a425ca1-1107-4e52-9513-795e8e778ec6",
+    "name": "QA-CM-PT-AddProduct",
+    "commands": [{
+      "id": "6b7634b7-7b91-44ca-a998-e59803326144",
+      "comment": "",
+      "command": "open",
+      "target": "https://qasvus.wixsite.com/ca-marketing/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f833895-f54f-4f6f-b971-e4f2b487d4aa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fab024fb-0504-4c7f-a11e-76f3915bbfd9",
+      "comment": "",
+      "command": "click",
+      "target": "id=comp-ksocy9ii2label",
+      "targets": [
+        ["id=comp-ksocy9ii2label", "id"],
+        ["css=#comp-ksocy9ii2label", "css:finder"],
+        ["xpath=//p[@id='comp-ksocy9ii2label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ksocy9ii2']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91180e8d-5fbb-40f5-9640-be837ab29fd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .\\_1FMIK",
+      "targets": [
+        ["css=li:nth-child(1) .\\_1FMIK", "css:finder"],
+        ["xpath=//div[@id='TPASection_k00d5apo']/div/div/div/div/section/div/ul/li/div/a/div", "xpath:idRelative"],
+        ["xpath=//li/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9e90e0d-ed0a-44df-97aa-58794031965f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfce53eb-3884-4ac3-b04d-d56878fbf493",
+      "comment": "",
+      "command": "click",
+      "target": "css=.RadioButton2822138712__root:nth-child(1) .ColorPickerItem3640361249__radioInner",
+      "targets": [
+        ["css=.RadioButton2822138712__root:nth-child(1) .ColorPickerItem3640361249__radioInner", "css:finder"],
+        ["xpath=//div[@id='TPAMultiSection_k00d5av4']/div/div/article/div[2]/section[2]/div[4]/div/div/div/section/div[2]/div/div/fieldset/div/div/span/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//span/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b14560c4-a57f-4554-a514-b112805d517c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2uERl > input",
+      "targets": [
+        ["css=.\\_2uERl > input", "css:finder"],
+        ["xpath=//input[@value='1']", "xpath:attributes"],
+        ["xpath=//div[@id='TPAMultiSection_k00d5av4']/div/div/article/div[2]/section[2]/div[4]/div/div/div[2]/div/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "852622fe-2863-4328-b118-10c6e87e37fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttonnext2304209174__content",
+      "targets": [
+        ["css=.buttonnext2304209174__content", "css:finder"],
+        ["xpath=//div[@id='TPAMultiSection_k00d5av4']/div/div/article/div[2]/section[2]/div[4]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to Card')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0e2fc819-b828-4c72-a1df-bd7a6365ff65",
+    "name": "QA-CM-PT-DelProduct",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "f9c37ff6-7690-4dd1-a77e-5df2a8944f08",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://qasvus.wixsite.com/", "https://qasvus.wixsite.com/ca-marketing/"],
+  "plugins": []
+}

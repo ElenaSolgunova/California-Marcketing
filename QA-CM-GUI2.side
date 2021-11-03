@@ -1,0 +1,109 @@
+{
+  "id": "914b5263-012a-4a1c-bfbf-4e97fc84713d",
+  "version": "2.0",
+  "name": "QA-CM-GUI2",
+  "url": "https://qasvus.wixsite.com/ca-marketing/",
+  "tests": [{
+    "id": "9178bd30-0429-40c0-84f5-4357ad223c2b",
+    "name": "gui2",
+    "commands": [{
+      "id": "0675f979-9c02-4e75-ae8f-249fd8cc4ccc",
+      "comment": "",
+      "command": "open",
+      "target": "https://qasvus.wixsite.com/ca-marketing/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bba7e1c4-921a-49c5-9479-1d53b5e96390",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6a7a035-974d-46d8-a21f-2204a7d15319",
+      "comment": "",
+      "command": "click",
+      "target": "id=comp-ksocy9ii2label",
+      "targets": [
+        ["id=comp-ksocy9ii2label", "id"],
+        ["css=#comp-ksocy9ii2label", "css:finder"],
+        ["xpath=//p[@id='comp-ksocy9ii2label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ksocy9ii2']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "394038f6-27ce-4cbe-9db3-7442acbab6e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .s3jSu4",
+      "targets": [
+        ["css=li:nth-child(2) .s3jSu4", "css:finder"],
+        ["xpath=//div[@id='TPASection_k00d5apo']/div/div/div/div/section/div/ul/li[2]/div/a/div[2]/h3", "xpath:idRelative"],
+        ["xpath=//li[2]/div/a/div[2]/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ac6c4bf-4917-47a5-a089-b5818b716d54",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_2BT-n",
+      "targets": [
+        ["css=.\\_2BT-n", "css:finder"],
+        ["xpath=//img[@alt=\"I'm a producd 2\"]", "xpath:img"],
+        ["xpath=//div[@id='get-image-item-id']/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "badd2471-27ad-4def-9624-e75d0d7bf662",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,261)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81ffc805-1dd9-4794-9e4e-8028263cf7d3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_2BT-n",
+      "targets": [
+        ["css=.\\_2BT-n", "css:finder"],
+        ["xpath=//img[@alt=\"I'm a producd 2\"]", "xpath:img"],
+        ["xpath=//div[@id='get-image-item-id']/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23d6319b-7537-4240-9347-1f07022947af",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f2b216c-3bf3-4891-80d6-257e2957a986",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2qrJF",
+      "targets": [
+        ["css=.\\_2qrJF", "css:finder"],
+        ["xpath=//div[@id='TPAMultiSection_k00d5av4']/div/div/article/div[2]/section/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fb2bb849-2441-47b1-8949-65c66e866587",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://qasvus.wixsite.com/ca-marketing/"],
+  "plugins": []
+}

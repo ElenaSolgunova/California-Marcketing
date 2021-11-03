@@ -1,0 +1,44 @@
+{
+  "id": "e7eca61a-0629-484c-87a9-4f25a70bbd1d",
+  "version": "2.0",
+  "name": "QA-CM-PT-Product",
+  "url": "https://qasvus.wixsite.com/ca-marketing/",
+  "tests": [{
+    "id": "b18364dd-bee3-4e37-a8e4-c23e0bba8b9c",
+    "name": "QA-CM-PT-DelProduct",
+    "commands": [{
+      "id": "8b0623f1-5d47-4610-8f11-ef5d1838db48",
+      "comment": "",
+      "command": "open",
+      "target": "https://qasvus.wixsite.com/ca-marketing/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "447eb298-fbe0-48e4-8cbd-ec29ec220cf7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9271d4b9-e484-4573-be53-258e03e4c5ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iOUBo > svg",
+      "targets": [
+        ["css=.iOUBo > svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3d5cb0f2-f7d9-4870-9b27-f22c5a27cd45",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://qasvus.wixsite.com/", "https://qasvus.wixsite.com/ca-marketing/"],
+  "plugins": []
+}
